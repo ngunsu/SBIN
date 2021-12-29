@@ -21,4 +21,26 @@ experiments:
       binary: True
       binloss: False
       pool: 'avg'
+  - exp_id: 2 
+    description: "normalbin_res_prelu_avgpool"
+    seed: 1
+    lr: 5e-3
+    batch_size: 6
+    patience: 30
+    save_top_k: 1 
+    scheduler: "steplr"
+    gamma: 0.1
+    gamma_step: 10
+    precision: 32
+    max_disp: 192
+    min_epochs: 1 
+    max_epochs: 20 
+    dataset: "sceneflow"
+    normalization: "default"
+    training_type: "normalbin"
+    training_type_details:
+      model_type: "normalbin_res_prelu_avgpool"
+      binary: True
+      binloss: False
+      pool: 'avg'
  

@@ -24,6 +24,8 @@ This is the implementation of our paper"[SBIN: A stereo disparity estimation net
         - kitti2015
         - sceneflow
 
+**Log and checkpoints are created on the folder output**
+
 #### Docker (training on x64 arch)
 
 ```bash
@@ -32,7 +34,7 @@ This is the implementation of our paper"[SBIN: A stereo disparity estimation net
 # Sceneflow training
 python experiments.py train 2
 
-# Kitti2012 (using sceneflow pretrained)
+# Kitti2012 training 
 python experiments.py train 1
 ```
 
