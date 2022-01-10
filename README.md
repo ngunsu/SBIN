@@ -1,5 +1,5 @@
 # SBIN: A stereo disparity estimation network using binary convolutions
-This is the implementation of our paper"[SBIN: A stereo disparity estimation network using binary convolutions](.)"
+This is the implementation of our paper"[SBIN: A stereo disparity estimation network using binary convolutions](https://latamt.ieeer9.org/index.php/transactions/article/view/5909)"
 
 ---
 
@@ -44,5 +44,6 @@ To add new experiments, check the experiments folder of directly use the cli.py,
 
 ## Citation
 ```
+@article{Aguilera_2022, title={SBIN: A stereo disparity estimation network using binary convolutions}, volume={20}, url={https://latamt.ieeer9.org/index.php/transactions/article/view/5909}, number={4}, journal={IEEE Latin America Transactions}, author={Aguilera, Cristhian Alejandro}, year={2022}, month={Jan.}, pages={693–699} }
 ```
 
